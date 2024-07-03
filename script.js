@@ -8,6 +8,7 @@ function searchExam() {
     // Dummy data for demonstration
     const examData = [
         { course: 'ARCH 286', course: 'ARCH286', section: 'D100', date: '16 August', time: '12:00 - 15:00', location: 'Room AQ 3003' },
+        { course: 'ARCH 286', section: 'D100', date: '16 August', time: '12:00 - 15:00', location: 'Room AQ 3003'},
         { course: 'ARCH 375', course: 'ARCH375', section: 'D100', date: '7 August', time: '23:59', location: 'TAKE HOME' },
         { course: 'BISC 101', course: 'BISC101', section: 'D100', date: '13 August', time: '12:00 - 15:00', location: 'SSCB 9200' },
         { course: 'BISC 102', course: 'BISC102', section: 'D100', date: '14 August', time: '08:30 - 11:30', location: 'Room SSCB 9200' },
