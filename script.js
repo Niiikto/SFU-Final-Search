@@ -2,10 +2,10 @@ function searchExam() {
     const courseCode = document.getElementById('courseCode').value;
     const resultsSection = document.getElementById('resultsSection');
 
-    // Clear previous results
+    
     resultsSection.innerHTML = '';
 
-    // Dummy data for demonstration
+    
     const examData = [
         { course: 'ARCH 286', section: 'D100', date: '16 August', time: '12:00 - 15:00', location: 'Room AQ 3003' },
         { course: 'ARCH286', section: 'D100', date: '16 August', time: '12:00 - 15:00', location: 'Room AQ 3003'},
@@ -285,10 +285,10 @@ function searchExam() {
         
     ];
 
-    // Filter results based on course code
+    
     const filteredExams = examData.filter(exam => exam.course.toLowerCase().includes(courseCode.toLowerCase()));
 
-    // Display results
+    
     if (filteredExams.length > 0) {
         filteredExams.forEach(exam => {
             const resultItem = document.createElement('div');
